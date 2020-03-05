@@ -1,0 +1,22 @@
+{
+  "name": "vanillajs",
+  "version": "1.0.0",
+  "description": "default js with Express framework",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whitepulse/VanillaJS.git"
+  },
+  "author": "whitepulse",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/whitepulse/VanillaJS/issues"
+  },
+  "homepage": "https://github.com/whitepulse/VanillaJS#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
