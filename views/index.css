@@ -1,0 +1,22 @@
+body {
+    background-color: bisque;
+}
+h1 {
+    color: cornflowerblue;
+}
+
+.form,
+.greetings {
+    display: none;
+}
+.showing {
+    display: block;
+}
+
+.btn {
+    cursor: pointer;
+}
+
+.clicked {
+    color: darksalmon;
+}
