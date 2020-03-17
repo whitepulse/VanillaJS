@@ -16,7 +16,9 @@ app.use('/birds', birds);
 //  res.sendFile(__dirname + "/" + "style.css");
 // });
 // 보통 CSS 와 JS 등은 아래와 같이 public 설정을 하여 오픈한다.
-app.use(express.static(__dirname + '/views'));
+app.use(express.static(__dirname + '/'));
+// 하위 디렉토리를 설정할 수도 있는데, 연구 필요하다
+// app.use(express.static(__dirname + '/views'));
 app.use(express.static("public"));
 
 app.route('/')
