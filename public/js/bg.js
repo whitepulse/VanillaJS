@@ -25,7 +25,7 @@ function invert(rgb) {
 
 function paintImage(imgNumber) {
     const image = new Image();
-    image.src = `./images/${imgNumber + 1}.jpg`;
+    image.src = `/public/images/${imgNumber + 1}.jpg`;
     image.classList.add("bgImage");
 
     if (image.complete) {
