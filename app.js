@@ -49,4 +49,4 @@ app.delete('/user', function (req, res) {
     res.send('Got a DELETE request at /user');
 });
 
-console.log('aaa');
+console.log('VanillaJS Server Console.');
