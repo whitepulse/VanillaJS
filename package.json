@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/whitepulse/VanillaJS#readme",
   "dependencies": {
+    "colorthief": "^2.3.0",
     "express": "^4.17.1"
   }
 }

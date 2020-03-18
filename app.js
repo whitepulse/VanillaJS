@@ -25,7 +25,7 @@ app.route('/')
     .get(function (req, res) {
         // send 이후에는 sendFile 등등을 다시 못한다.
         //res.send('Hello World!');
-        res.sendFile(__dirname + '/views/index.html');
+        res.sendFile(__dirname + '/public/html/vanillaWeb.html');
     })
     .post(function (req, res) {
         res.send('Got a POST request');
